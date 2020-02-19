@@ -1,0 +1,4 @@
+<h1>Boat Index</h1>
+
+<% @boats.each do |b| %>
+    <% boat.name %> = <% boat.update_at.srftime("Last Update, %A, %b, %e, at %1:M %p") %>
